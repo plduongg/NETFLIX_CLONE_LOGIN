@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) , url(../img/netflixbgr.jpg);
+    height: 100vh;
+}
+
+.login-top {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.login-top img {
+    width: 150px;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.763);
+    width: 430px;
+    height: 580px;
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.small-text {
+    font-size: 15px;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+.btn {
+    background-color: #e50914;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 12px;
+    color: white;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: gray !important;
+}
+
+a {
+    transition: ease-in-out 0.5s;
+    opacity: 0.5;
+}
+
+
+
